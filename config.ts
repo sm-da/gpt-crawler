@@ -192,7 +192,7 @@ export const defaultConfig: Config = {
   ],
   url: "https://cornellmedicine.org/",
   match: "https://cornellmedicine.org/**",
-  maxPagesToCrawl: 99999999999,
+  maxPagesToCrawl: 9999999999,
   outputFileName: "output/cornell-medicine.json",
   maxTokens: 2000000,
   selector: "body",

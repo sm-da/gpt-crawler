@@ -192,7 +192,7 @@ export const defaultConfig: Config = {
   ],
   url: "https://www.whitehouse.gov/",
   match: "https://www.whitehouse.gov/**",
-  maxPagesToCrawl: 999999999999,
+  maxPagesToCrawl: 99999999999,
   outputFileName: "output/white-house.json",
   maxTokens: 2000000,
   selector: "body",

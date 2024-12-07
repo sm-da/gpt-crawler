@@ -192,7 +192,7 @@ export const defaultConfig: Config = {
   ],
   url: "https://www.holycross.edu/",
   match: "https://www.holycross.edu/**",
-  maxPagesToCrawl: 99999999999,
+  maxPagesToCrawl: 9999999999,
   outputFileName: "output/cothc.json",
   maxTokens: 2000000,
   selector: "body",

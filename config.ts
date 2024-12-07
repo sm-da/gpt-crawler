@@ -7,7 +7,7 @@ export const defaultConfig: Config = {
   ],
   url: "https://www.samsung.com/",
   match: "https://www.samsung.com/**",
-  maxPagesToCrawl: 999999999999999,
+  maxPagesToCrawl: 99999999999999,
   outputFileName: "output/samsung.json",
   maxTokens: 2000000,
   selector: "body"

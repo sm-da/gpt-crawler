@@ -192,7 +192,7 @@ export const defaultConfig: Config = {
   ],
   url: "https://www.columbia.edu/",
   match: "https://www.columbia.edu/**",
-  maxPagesToCrawl: 99999999999,
+  maxPagesToCrawl: 9999999999,
   outputFileName: "output/columbia.json",
   maxTokens: 2000000,
   selector: "body",

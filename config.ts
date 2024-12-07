@@ -192,7 +192,7 @@ export const defaultConfig: Config = {
   ],
   url: "https://www.state.gov/",
   match: "https://www.state.gov/**",
-  maxPagesToCrawl: 99999999999999999,
+  maxPagesToCrawl: 9999999999999999,
   outputFileName: "output/state-dot-gov.json",
   maxTokens: 2000000,
   selector: "body",

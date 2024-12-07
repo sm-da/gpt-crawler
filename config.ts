@@ -192,7 +192,7 @@ export const defaultConfig: Config = {
   ],
   url: "https://weill.cornell.edu/",
   match: "https://weill.cornell.edu/**",
-  maxPagesToCrawl: 9999999999999,
+  maxPagesToCrawl: 999999999999,
   outputFileName: "output/weill-cornell.json",
   maxTokens: 2000000,
   selector: "body",

@@ -192,7 +192,7 @@ export const defaultConfig: Config = {
   ],
   url: "https://www.hhs.gov/",
   match: "https://www.hhs.gov/**",
-  maxPagesToCrawl: 99999999999,
+  maxPagesToCrawl: 9999999999,
   outputFileName: "output/hhs.json",
   maxTokens: 2000000,
   selector: "body",

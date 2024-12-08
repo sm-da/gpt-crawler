@@ -192,7 +192,7 @@ export const defaultConfig: Config = {
   ],
   url: "https://www.riotgames.com/",
   match: "https://www.riotgames.com/**",
-  maxPagesToCrawl: 9999999999999,
+  maxPagesToCrawl: 999999999999,
   outputFileName: "output/riot-games.json",
   maxTokens: 2000000,
   selector: "body",

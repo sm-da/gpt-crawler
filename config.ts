@@ -192,7 +192,7 @@ export const defaultConfig: Config = {
   ],
   url: "https://www.mfa.gov.cn/eng/",
   match: "https://www.mfa.gov.cn/**",
-  maxPagesToCrawl: 9999999999,
+  maxPagesToCrawl: 999999999,
   outputFileName: "output/prc-mfa.json",
   maxTokens: 2000000,
   selector: "body",

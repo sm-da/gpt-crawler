@@ -192,7 +192,7 @@ export const defaultConfig: Config = {
   ],
   url: "https://feedly.com/homepage",
   match: "https://feedly.com/**",
-  maxPagesToCrawl: 1,
+  maxPagesToCrawl: 999999999999999,
   outputFileName: "output/feedly.json",
   maxTokens: 2000000,
   selector: "body",

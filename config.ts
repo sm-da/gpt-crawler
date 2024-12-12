@@ -1,9 +1,9 @@
 import { Config } from "./src/config";
 
 export const defaultConfig: Config = {
-  url: "https://www.builder.io/c/docs/developers",
-  match: "https://www.builder.io/c/docs/**",
-  maxPagesToCrawl: 50,
-  outputFileName: "output.json",
+  url: "https://neuralink.com/",
+  match: "https://neuralink.com//**",
+  maxPagesToCrawl: 999999999,
+  outputFileName: "neuralink.json",
   maxTokens: 2000000,
 };
